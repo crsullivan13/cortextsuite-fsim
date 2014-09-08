@@ -22,6 +22,11 @@ For results, perhaps a results folder similar to the way LDA does it?
 Modify the rest of the benchmarks to use the /common/ directory makefile
     and add the .phony flag simliar to LDA
 IMPORTANT: LDA MAKEFILE IS USING LOCAL DIRECTORY STRUCTURE NEED TO CHANGE
+LDA still broken on small datasets
+Sphinx/SVD makefile is not in line with the other makefiles. Includes the name of the binary (a.out)
+Double check sphinx medium/large datasets
+Sphinx naming is an issue because there is a folder called "INCLUDES" and my timing is called "INCLUDE"
+README for Sphinx and SVD
 
 
 Marissa: Mondays-Wed 10:30  to 12am workings
