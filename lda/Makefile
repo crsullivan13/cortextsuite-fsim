@@ -1,16 +1,23 @@
 .SUFFIXES: .c .u
 .PHONY: all small medium large clean
 
+TOP_DIR = $(shell pwd)
+COMMON = $(TOP_DIR)/common
+
 CC= gcc
 CFLAGS  = -O2
 LDFLAGS = -lm
 
 
 
-INCLUDES = -I$(CURDIR) -I/home/shelbyt/Documents/benchmarks/common 
+#INCLUDES = -I$(CURDIR) -I/home/shelbyt/Documents/benchmarks/common 
+INCLUDES = -I$(CURDIR)
+
 COMPILE_C = $(CC) $(CFLAGS) -lm -O2 $(INCLUDES)
 COMMON_SRC := $(wildcard $(CURDIR)/*.c)
-C_SRC := $(wildcard /home/shelbyt/Documents/benchmarks/common/*.c)
+#C_SRC := $(wildcard /home/shelbyt/Documents/benchmarks/common/*.c)
+C_SRC := $(wildcard $(COMMON)/*.c)
+
 
 all: small medium large
 
