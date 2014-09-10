@@ -11,12 +11,10 @@ LDFLAGS = -lm
 
 
 #INCLUDES = -I$(CURDIR) -I/home/shelbyt/Documents/benchmarks/common 
-INCLUDES = -I$(CURDIR)
-
+INCLUDES = -I$(CURDIR)/includes -I$(CURDIR)
 COMPILE_C = $(CC) $(CFLAGS) -lm -O2 $(INCLUDES)
 COMMON_SRC := $(wildcard $(CURDIR)/*.c)
-#C_SRC := $(wildcard /home/shelbyt/Documents/benchmarks/common/*.c)
-C_SRC := $(wildcard $(COMMON)/*.c)
+C_SRC := $(wildcard $(CURDIR)/includes/*.c)
 
 
 all: small medium large
