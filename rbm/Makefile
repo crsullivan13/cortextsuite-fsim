@@ -23,4 +23,4 @@ large: $(C_SRC)
 	-./rbm-large
 
 clean:
-	rm *.o rbm-small rbm-medium rbm-large
+	-rm *.o rbm-small rbm-medium rbm-large

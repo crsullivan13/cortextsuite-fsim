@@ -16,15 +16,15 @@ all: train predict
 
 small: $(C_SRC) $(LIBS)
 	$(COMPILE_C) $(COMMON_SRC) $(C_SRC) $(LIBS) $(CFLAGS) -o train-small
-	./train-small ../data/100M/crime_scale
+	./train-small data/100M/crime_scale
 
 medium: $(C_SRC) $(LIBS)
 	$(COMPILE_C) $(COMMON_SRC) $(C_SRC) $(LIBS) $(CFLAGS) -o train-medium
-	./train-medium ../data/10B/epsilon
+	./train-medium data/10B/epsilon
 
 large: $(C_SRC) $(LIBS)
 	$(COMPILE_C) $(COMMON_SRC) $(C_SRC) $(LIBS) $(CFLAGS) -o train-large
-	./train-large ../data/100B/kdda
+	./train-large data/100B/kdda
 
 blas/blas.a: blas/*.c blas/*.h
 	make -C blas OPTFLAGS='$(CFLAGS)' CC='$(CC)'
