@@ -46,11 +46,11 @@
 #include <limits.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
-#include "../include/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/err.h"
 
 /* Local headers. */
-#include "../include/hmm.h"
+#include "../helper/hmm.h"
 
 hmm_context_t *
 hmm_context_init(int32 n_emit_state,

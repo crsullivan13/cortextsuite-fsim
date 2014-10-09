@@ -115,7 +115,7 @@
 
 #include <stdio.h>
 
-#include "../../include/genrand.h"
+#include "../../helper/genrand.h"
 
 /* Period parameters */
 #define N 624

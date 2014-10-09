@@ -40,17 +40,17 @@
  * Author: David Huggins-Daines <dhuggins@cs.cmu.edu>
  */
 
-#include "../../include/ckd_alloc.h"
+#include "../../helper/ckd_alloc.h"
 #include <string.h>
 #include <limits.h>
 #include <assert.h>
 
-#include "../../include/err.h"
-#include "../../include/pio.h"
-#include "../../include/listelem_alloc.h"
-#include "../../include/strfuncs.h"
+#include "../../helper/err.h"
+#include "../../helper/pio.h"
+#include "../../helper/listelem_alloc.h"
+#include "../../helper/strfuncs.h"
 
-#include "../../include/ngram_model_arpa.h"
+#include "../../helper/ngram_model_arpa.h"
 
 static ngram_funcs_t ngram_model_arpa_funcs;
 

@@ -38,10 +38,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/listelem_alloc.h"
-#include "../../include/glist.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/listelem_alloc.h"
+#include "../../helper/glist.h"
 
 /**
  * Fast linked list allocator.

@@ -119,23 +119,23 @@
 #include <assert.h>
 #include <string.h>
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
 #ifdef _MSC_VER
 #pragma warning (disable: 4244 4996)
 #endif
 
-#include "../../include/fe.h"
-#include "../../include/feat.h"
-#include "../../include/bio.h"
-#include "../../include/pio.h"
-#include "../../include/cmn.h"
-#include "../../include/agc.h"
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/prim_type.h"
-#include "../../include/glist.h"
+#include "../../helper/fe.h"
+#include "../../helper/feat.h"
+#include "../../helper/bio.h"
+#include "../../helper/pio.h"
+#include "../../helper/cmn.h"
+#include "../../helper/agc.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/prim_type.h"
+#include "../../helper/glist.h"
 
 #define FEAT_VERSION	"1.0"
 #define FEAT_DCEP_WIN		2

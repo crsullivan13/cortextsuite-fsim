@@ -46,13 +46,13 @@
 #include <stdlib.h>
 #include <limits.h>
 
-#include "../../include/ckd_alloc.h"
-#include "../../include/pio.h"
-#include "../../include/err.h"
-#include "../../include/byteorder.h"
-#include "../../include/listelem_alloc.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/pio.h"
+#include "../../helper/err.h"
+#include "../../helper/byteorder.h"
+#include "../../helper/listelem_alloc.h"
 
-#include "../../include/ngram_model_dmp.h"
+#include "../../helper/ngram_model_dmp.h"
 
 static const char darpa_hdr[] = "Darpa Trigram LM";
 static ngram_funcs_t ngram_model_dmp_funcs;

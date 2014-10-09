@@ -39,11 +39,11 @@
 #include <string.h>
 
 /* SphinxBase headers. */
-#include "../include/pio.h"
-#include "../include/strfuncs.h"
+#include "../helper/pio.h"
+#include "../helper/strfuncs.h"
 
 /* Local headers. */
-#include "../include/dict.h"
+#include "../helper/dict.h"
 
 
 #define DELIM	" \t\n"         /* Set of field separator characters */

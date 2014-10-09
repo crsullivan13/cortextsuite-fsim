@@ -46,19 +46,19 @@
 #endif
 
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
-#include "../../include/prim_type.h"
-#include "../../include/byteorder.h"
-#include "../../include/fixpoint.h"
-#include "../../include/genrand.h"
-#include "../../include/err.h"
-#include "../../include/cmd_ln.h"
-#include "../../include/ckd_alloc.h"
+#include "../../helper/prim_type.h"
+#include "../../helper/byteorder.h"
+#include "../../helper/fixpoint.h"
+#include "../../helper/genrand.h"
+#include "../../helper/err.h"
+#include "../../helper/cmd_ln.h"
+#include "../../helper/ckd_alloc.h"
 
-#include "../../include/fe_internal.h"
-#include "../../include/fe_warp.h"
+#include "../../helper/fe_internal.h"
+#include "../../helper/fe_warp.h"
 
 static const arg_t fe_args[] = {
     waveform_to_cepstral_command_line_macro(),

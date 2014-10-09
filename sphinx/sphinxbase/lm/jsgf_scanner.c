@@ -597,8 +597,8 @@ static yyconst flex_int32_t yy_rule_can_match_eol[23] =
 /* YOU MUST USE FLEX 2.5.33 OR NEWER TO PROCESS THIS FILE!!! */
 #line 39 "_jsgf_scanner.l"
 
-#include "../../include/jsgf_internal.h"
-#include "../../include/jsgf_parser.h"
+#include "../../helper/jsgf_internal.h"
+#include "../../helper/jsgf_parser.h"
 
 
 

@@ -35,7 +35,7 @@
  *
  */
 
-#include "../../include/config.h"
+#include "../../helper/config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,11 +51,11 @@
 #endif
 #include <assert.h>
 
-#include "../../include/pio.h"
-#include "../../include/filename.h"
-#include "../../include/err.h"
-#include "../../include/strfuncs.h"
-#include "../../include/ckd_alloc.h"
+#include "../../helper/pio.h"
+#include "../../helper/filename.h"
+#include "../../helper/err.h"
+#include "../../helper/strfuncs.h"
+#include "../../helper/ckd_alloc.h"
 
 #ifndef EXEEXT
 #define EXEEXT ""

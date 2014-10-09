@@ -93,10 +93,10 @@
 #pragma warning (disable: 4018)
 #endif
 
-#include "../../include/hash_table.h"
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/case.h"
+#include "../../helper/hash_table.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/case.h"
 
 
 #if 0

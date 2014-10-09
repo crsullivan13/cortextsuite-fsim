@@ -68,19 +68,19 @@
 #endif
 
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
 #ifdef HAVE_UNISTD_H
 #include <unistd.h>
 #endif
 
-#include "../../include/cmd_ln.h"
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/hash_table.h"
-#include "../../include/case.h"
-#include "../../include/strfuncs.h"
+#include "../../helper/cmd_ln.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/hash_table.h"
+#include "../../helper/case.h"
+#include "../../helper/strfuncs.h"
 
 typedef struct cmd_ln_val_s {
     anytype_t val;

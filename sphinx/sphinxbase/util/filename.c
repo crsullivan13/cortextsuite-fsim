@@ -63,7 +63,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include "../../include/filename.h"
+#include "../../helper/filename.h"
 
 #ifdef _MSC_VER
 #pragma warning (disable: 4996)

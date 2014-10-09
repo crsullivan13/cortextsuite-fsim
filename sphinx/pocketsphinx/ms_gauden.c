@@ -119,12 +119,12 @@
 #include <float.h>
 
 /* SphinxBase headers. */
-#include "../include/bio.h"
-#include "../include/err.h"
-#include "../include/ckd_alloc.h"
+#include "../helper/bio.h"
+#include "../helper/err.h"
+#include "../helper/ckd_alloc.h"
 
 /* Local headesr. */
-#include "../include/ms_gauden.h"
+#include "../helper/ms_gauden.h"
 
 #define GAUDEN_PARAM_VERSION	"1.0"
 

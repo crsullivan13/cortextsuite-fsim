@@ -44,12 +44,12 @@
 
 /* static char rcsid[] = "@(#)$Id: fe_warp.c,v 1.2 2006/02/17 00:31:34 egouvea Exp $";*/
 
-#include "../../include/fe_warp_inverse_linear.h"
-#include "../../include/fe_warp_affine.h"
-#include "../../include/fe_warp_piecewise_linear.h"
-#include "../../include/fe_warp.h"
+#include "../../helper/fe_warp_inverse_linear.h"
+#include "../../helper/fe_warp_affine.h"
+#include "../../helper/fe_warp_piecewise_linear.h"
+#include "../../helper/fe_warp.h"
 
-#include "../../include/err.h"
+#include "../../helper/err.h"
 
 #include <stdio.h>
 #include <string.h>

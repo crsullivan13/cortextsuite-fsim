@@ -44,11 +44,11 @@
 #include <assert.h>
 #include <limits.h>
 
-#include "../../include/listelem_alloc.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/err.h"
+#include "../../helper/listelem_alloc.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/err.h"
 
-#include "../../include/lm3g_model.h"
+#include "../../helper/lm3g_model.h"
 
 void
 lm3g_tginfo_free(ngram_model_t *base, lm3g_model_t *lm3g)

@@ -64,8 +64,8 @@
 #include <stdlib.h>
 #include <assert.h>
 
-#include "../../include/case.h"
-#include "../../include/err.h"
+#include "../../helper/case.h"
+#include "../../helper/err.h"
 
 
 void

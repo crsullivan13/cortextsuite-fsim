@@ -54,17 +54,17 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/err.h"
-#include "../include/ckd_alloc.h"
-#include "../include/strfuncs.h"
-#include "../include/cmd_ln.h"
+#include "../helper/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/strfuncs.h"
+#include "../helper/cmd_ln.h"
 
 /* Local headers. */
-#include "../include/pocketsphinx_internal.h"
-#include "../include/ps_lattice_internal.h"
-#include "../include/fsg_search_internal.h"
-#include "../include/fsg_history.h"
-#include "../include/fsg_lextree.h"
+#include "../helper/pocketsphinx_internal.h"
+#include "../helper/ps_lattice_internal.h"
+#include "../helper/fsg_search_internal.h"
+#include "../helper/fsg_history.h"
+#include "../helper/fsg_lextree.h"
 
 /* Turn this on for detailed debugging dump */
 #define __FSG_DBG__		0

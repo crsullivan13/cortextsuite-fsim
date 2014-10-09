@@ -48,17 +48,17 @@
 #endif
 
 /* SphinxBase headers */
-#include "../include/sphinx_config.h"
-#include "../include/cmd_ln.h"
-#include "../include/fixpoint.h"
-#include "../include/ckd_alloc.h"
-#include "../include/bio.h"
-#include "../include/err.h"
-#include "../include/prim_type.h"
+#include "../helper/sphinx_config.h"
+#include "../helper/cmd_ln.h"
+#include "../helper/fixpoint.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/bio.h"
+#include "../helper/err.h"
+#include "../helper/prim_type.h"
 
 /* Local headers */
-#include "../include/s2_semi_mgau.h"
-#include "../include/tied_mgau_common.h"
+#include "../helper/s2_semi_mgau.h"
+#include "../helper/tied_mgau_common.h"
 
 static ps_mgaufuncs_t s2_semi_mgau_funcs = {
     "s2_semi",

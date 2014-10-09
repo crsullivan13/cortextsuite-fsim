@@ -64,7 +64,7 @@
 
 #ifdef BTL
 
-#include "/u/kvs/raw/rawlib/archlib/include/raw.h"
+#include "/u/kvs/raw/rawlib/archlib/helper/raw.h"
 
 #define magic_timing_begin(cycleLo, cycleHi) {\
     raw_magic_timing_report_begin();\

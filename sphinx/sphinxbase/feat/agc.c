@@ -59,12 +59,12 @@
 
 #include <string.h>
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/agc.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/agc.h"
 
 /* NOTE!  These must match the enum in agc.h */
 const char *agc_type_str[] = {

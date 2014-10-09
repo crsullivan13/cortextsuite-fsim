@@ -43,10 +43,10 @@
 #include <stdio.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
+#include "../helper/ckd_alloc.h"
 
 /* Local headers. */
-#include "../include/acmod.h"
+#include "../helper/acmod.h"
 
 ps_mllr_t *
 ps_mllr_read(char const *regmatfile)

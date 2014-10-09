@@ -67,10 +67,10 @@
 # include <sys/mman.h>
 #endif
 
-#include "../../include/prim_type.h"
-#include "../../include/err.h"
-#include "../../include/mmio.h"
-#include "../../include/ckd_alloc.h"
+#include "../../helper/prim_type.h"
+#include "../../helper/err.h"
+#include "../../helper/mmio.h"
+#include "../../helper/ckd_alloc.h"
 
 /** Silvio Moioli: slightly updated */
 #if defined(_WIN32_WCE) || defined(GNUWINCE)

@@ -46,8 +46,8 @@
 #include <assert.h>
 #include <stdarg.h>
 
-#include "../../include/ckd_alloc.h"
-#include "../../include/strfuncs.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/strfuncs.h"
 
 /* Defined in dtoa.c */
 double sb_strtod(const char *s00, char **se);

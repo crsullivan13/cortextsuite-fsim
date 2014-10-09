@@ -44,13 +44,13 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
-#include "../include/listelem_alloc.h"
-#include "../include/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/listelem_alloc.h"
+#include "../helper/err.h"
 
 /* Local headers. */
-#include "../include/ngram_search_fwdtree.h"
-#include "../include/phone_loop_search.h"
+#include "../helper/ngram_search_fwdtree.h"
+#include "../helper/phone_loop_search.h"
 
 /* Turn this on to dump channels for debugging */
 #define __CHAN_DUMP__		0

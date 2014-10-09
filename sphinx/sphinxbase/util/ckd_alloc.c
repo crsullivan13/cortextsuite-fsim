@@ -94,8 +94,8 @@
 #pragma warning (disable: 4996)
 #endif
 
-#include "../../include/ckd_alloc.h"
-#include "../../include/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/err.h"
 
 /**
  * Target for longjmp() on failure.

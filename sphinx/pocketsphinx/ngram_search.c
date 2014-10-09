@@ -44,16 +44,16 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
-#include "../include/listelem_alloc.h"
-#include "../include/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/listelem_alloc.h"
+#include "../helper/err.h"
 
 /* Local headers. */
-#include "../include/pocketsphinx_internal.h"
-#include "../include/ps_lattice_internal.h"
-#include "../include/ngram_search.h"
-#include "../include/ngram_search_fwdtree.h"
-#include "../include/ngram_search_fwdflat.h"
+#include "../helper/pocketsphinx_internal.h"
+#include "../helper/ps_lattice_internal.h"
+#include "../helper/ngram_search.h"
+#include "../helper/ngram_search_fwdtree.h"
+#include "../helper/ngram_search_fwdflat.h"
 
 static int ngram_search_start(ps_search_t *search);
 static int ngram_search_step(ps_search_t *search, int frame_idx);

@@ -42,12 +42,12 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/strfuncs.h"
-#include "../../include/filename.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/strfuncs.h"
+#include "../../helper/filename.h"
 
-#include "../../include/ngram_model_set.h"
+#include "../../helper/ngram_model_set.h"
 
 static ngram_funcs_t ngram_model_set_funcs;
 

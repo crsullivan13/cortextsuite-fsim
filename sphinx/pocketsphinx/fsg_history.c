@@ -52,13 +52,13 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/prim_type.h"
-#include "../include/err.h"
-#include "../include/ckd_alloc.h"
+#include "../helper/prim_type.h"
+#include "../helper/err.h"
+#include "../helper/ckd_alloc.h"
 
 /* Local headers. */
-#include "../include/fsg_search_internal.h"
-#include "../include/fsg_history.h"
+#include "../helper/fsg_search_internal.h"
+#include "../helper/fsg_history.h"
 
 
 #define __FSG_DBG__	0

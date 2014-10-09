@@ -44,11 +44,11 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
-#include "../include/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/err.h"
 
 /* Local headers. */
-#include "../include/fsg_lextree.h"
+#include "../helper/fsg_lextree.h"
 
 #define __FSG_DBG__		0
 

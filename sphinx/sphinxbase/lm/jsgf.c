@@ -38,14 +38,14 @@
 #include <string.h>
 #include <assert.h>
 
-#include "../../include/ckd_alloc.h"
-#include "../../include/strfuncs.h"
-#include "../../include/hash_table.h"
-#include "../../include/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/strfuncs.h"
+#include "../../helper/hash_table.h"
+#include "../../helper/err.h"
 
-#include "../../include/jsgf_internal.h"
-#include "../../include/jsgf_parser.h"
-#include "../../include/jsgf_scanner.h"
+#include "../../helper/jsgf_internal.h"
+#include "../../helper/jsgf_parser.h"
+#include "../../helper/jsgf_scanner.h"
 
 /**
  * \file jsgf.c

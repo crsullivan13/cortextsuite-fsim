@@ -42,7 +42,7 @@
 #include <assert.h>
 
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
 #ifdef _MSC_VER
@@ -56,16 +56,16 @@
 #define M_PI		3.14159265358979323846	/* pi */
 #endif // M_PI
 
-#include "../../include/prim_type.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/byteorder.h"
-#include "../../include/fixpoint.h"
-#include "../../include/fe.h"
-#include "../../include/genrand.h"
-#include "../../include/err.h"
+#include "../../helper/prim_type.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/byteorder.h"
+#include "../../helper/fixpoint.h"
+#include "../../helper/fe.h"
+#include "../../helper/genrand.h"
+#include "../../helper/err.h"
 
-#include "../../include/fe_internal.h"
-#include "../../include/fe_warp.h"
+#include "../../helper/fe_internal.h"
+#include "../../helper/fe_warp.h"
 
 /* Use extra precision for cosines, Hamming window, pre-emphasis
  * coefficient, twiddle factors. */

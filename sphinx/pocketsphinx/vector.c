@@ -73,12 +73,12 @@
 #include <math.h>
 
 /* SphinxBase headers. */
-#include "../include/err.h"
-#include "../include/ckd_alloc.h"
-#include "../include/bitvec.h"
+#include "../helper/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/bitvec.h"
 
 /* Local headers. */
-#include "../include/vector.h"
+#include "../helper/vector.h"
 
 #if (WIN32)
 #define srandom	srand

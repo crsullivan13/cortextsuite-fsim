@@ -75,13 +75,13 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "../../include/hash_table.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/err.h"
+#include "../../helper/hash_table.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/err.h"
 
-#include "../../include/jsgf_internal.h"
-#include "../../include/jsgf_parser.h"
-#include "../../include/jsgf_scanner.h"
+#include "../../helper/jsgf_internal.h"
+#include "../../helper/jsgf_parser.h"
+#include "../../helper/jsgf_scanner.h"
 
 /* Suppress warnings from generated code */
 #if defined _MSC_VER

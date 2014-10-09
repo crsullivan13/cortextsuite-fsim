@@ -1,6 +1,6 @@
 #define MAX_LENGTH 1024
 
-#include "include/pocketsphinx.h"
+#include "helper/pocketsphinx.h"
 
 int
 main(int argc, char *argv[])

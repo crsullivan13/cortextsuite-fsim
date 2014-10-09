@@ -47,16 +47,16 @@
 
 
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
 #ifdef _MSC_VER
 #pragma warning (disable: 4244)
 #endif
 
-#include "../../include/ckd_alloc.h"
-#include "../../include/err.h"
-#include "../../include/cmn.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/err.h"
+#include "../../helper/cmn.h"
 
 void
 cmn_prior_set(cmn_t *cmn, mfcc_t const * vec)

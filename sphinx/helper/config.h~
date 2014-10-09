@@ -1,5 +1,5 @@
-/* include/config.h.  Generated from config.h.in by configure.  */
-/* include/config.h.in.  Generated from configure.in by autoheader.  */
+/* helper/config.h.  Generated from config.h.in by configure.  */
+/* helper/config.h.in.  Generated from configure.in by autoheader.  */
 
 /* Use ALSA library for sound I/O */
 /* #undef AD_BACKEND_ALSA */

@@ -43,17 +43,17 @@
 #include <assert.h>
 #include <string.h>
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
 #ifdef _MSC_VER
 #pragma warning (disable: 4018)
 #endif
 
-#include "../../include/feat.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/bio.h"
-#include "../../include/err.h"
+#include "../../helper/feat.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/bio.h"
+#include "../../helper/err.h"
 
 #define MATRIX_FILE_VERSION "0.1"
 

@@ -69,7 +69,7 @@
  */
 
 /* Local headers. */
-#include "../include/ms_mgau.h"
+#include "../helper/ms_mgau.h"
 
 static ps_mgaufuncs_t ms_mgau_funcs = {
     "ms",

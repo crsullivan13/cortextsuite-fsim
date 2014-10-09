@@ -37,8 +37,8 @@
 
 #include <string.h>
 
-#include "../include/dict2pid.h"
-#include "../include/hmm.h"
+#include "../helper/dict2pid.h"
+#include "../helper/hmm.h"
 
 
 /**

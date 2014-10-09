@@ -1,4 +1,4 @@
-/* include/sphinx_config.h.  Generated from sphinx_config.h.in by configure.  */
+/* helper/sphinx_config.h.  Generated from sphinx_config.h.in by configure.  */
 /* sphinx_config.h: Externally visible configuration parameters */
 
 /* Use ALSA library for sound I/O */

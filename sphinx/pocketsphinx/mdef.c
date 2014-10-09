@@ -89,11 +89,11 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
-#include "../include/err.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/err.h"
 
 /* Local headers. */
-#include "../include/mdef.h"
+#include "../helper/mdef.h"
 
 
 #define MODEL_DEF_VERSION	"0.3"

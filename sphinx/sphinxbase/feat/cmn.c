@@ -95,16 +95,16 @@
 #include <assert.h>
 #include <math.h>
 #ifdef HAVE_CONFIG_H
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #endif
 
 #ifdef _MSC_VER
 #pragma warning (disable: 4244)
 #endif
 
-#include "../../include/ckd_alloc.h"
-#include "../../include/err.h"
-#include "../../include/cmn.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/err.h"
+#include "../../helper/cmn.h"
 
 /* NOTE!  These must match the enum in cmn.h */
 const char *cmn_type_str[] = {

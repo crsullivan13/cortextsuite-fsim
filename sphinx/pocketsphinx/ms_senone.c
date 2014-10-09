@@ -41,10 +41,10 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/bio.h"
+#include "../helper/bio.h"
 
 /* Local headers. */
-#include "../include/ms_senone.h"
+#include "../helper/ms_senone.h"
 
 #define MIXW_PARAM_VERSION	"1.0"
 #define SPDEF_PARAM_VERSION	"1.2"

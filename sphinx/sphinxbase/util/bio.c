@@ -68,9 +68,9 @@
 #pragma warning (disable: 4996)
 #endif
 
-#include "../../include/bio.h"
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
+#include "../../helper/bio.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
 
 
 #define BIO_HDRARG_MAX	32

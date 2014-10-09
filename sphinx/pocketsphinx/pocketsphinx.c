@@ -40,20 +40,20 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/err.h"
-#include "../include/strfuncs.h"
-#include "../include/filename.h"
-#include "../include/pio.h"
+#include "../helper/err.h"
+#include "../helper/strfuncs.h"
+#include "../helper/filename.h"
+#include "../helper/pio.h"
 
 /* Local headers. */
-#include "../include/cmdln_macro.h"
-#include "../include/pocketsphinx_internal.h"
-#include "../include/ps_lattice_internal.h"
-#include "../include/phone_loop_search.h"
-#include "../include/fsg_search_internal.h"
-#include "../include/ngram_search.h"
-#include "../include/ngram_search_fwdtree.h"
-#include "../include/ngram_search_fwdflat.h"
+#include "../helper/cmdln_macro.h"
+#include "../helper/pocketsphinx_internal.h"
+#include "../helper/ps_lattice_internal.h"
+#include "../helper/phone_loop_search.h"
+#include "../helper/fsg_search_internal.h"
+#include "../helper/ngram_search.h"
+#include "../helper/ngram_search_fwdtree.h"
+#include "../helper/ngram_search_fwdflat.h"
 
 static const arg_t ps_args_def[] = {
     POCKETSPHINX_OPTIONS,

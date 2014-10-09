@@ -56,11 +56,11 @@
 #pragma warning (disable: 4996)
 #endif
 
-#include "../../include/strfuncs.h"
-#include "../../include/err.h"
+#include "../../helper/strfuncs.h"
+#include "../../helper/err.h"
 
-#include "../../include/fe_warp.h"
-#include "../../include/fe_warp_inverse_linear.h"
+#include "../../helper/fe_warp.h"
+#include "../../helper/fe_warp_inverse_linear.h"
 
 #define N_PARAM		1
 #define YES             1

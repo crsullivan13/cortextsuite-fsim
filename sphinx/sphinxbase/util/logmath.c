@@ -39,12 +39,12 @@
 #include <string.h>
 #include <assert.h>
 
-#include "../../include/logmath.h"
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/mmio.h"
-#include "../../include/bio.h"
-#include "../../include/strfuncs.h"
+#include "../../helper/logmath.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/mmio.h"
+#include "../../helper/bio.h"
+#include "../../helper/strfuncs.h"
 
 struct logmath_s {
     logadd_t t;

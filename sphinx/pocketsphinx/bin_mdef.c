@@ -52,15 +52,15 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/prim_type.h"
-#include "../include/ckd_alloc.h"
-#include "../include/byteorder.h"
-#include "../include/case.h"
-#include "../include/err.h"
+#include "../helper/prim_type.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/byteorder.h"
+#include "../helper/case.h"
+#include "../helper/err.h"
 
 /* Local headers. */
-#include "../include/mdef.h"
-#include "../include/bin_mdef.h"
+#include "../helper/mdef.h"
+#include "../helper/bin_mdef.h"
 
 bin_mdef_t *
 bin_mdef_read_text(cmd_ln_t *config, const char *filename)

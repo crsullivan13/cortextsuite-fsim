@@ -45,12 +45,12 @@
 #include <assert.h>
 
 /* SphinxBase headers. */
-#include "../include/prim_type.h"
-#include "../include/err.h"
-#include "../include/ckd_alloc.h"
+#include "../helper/prim_type.h"
+#include "../helper/err.h"
+#include "../helper/ckd_alloc.h"
 
 /* Local headers. */
-#include "../include/blkarray_list.h"
+#include "../helper/blkarray_list.h"
 
 
 #define BLKARRAY_DEFAULT_MAXBLKS	16380

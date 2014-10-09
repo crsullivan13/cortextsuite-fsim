@@ -66,8 +66,8 @@
 #include <string.h>
 #include <assert.h>
 
-#include "../../include/glist.h"
-#include "../../include/ckd_alloc.h"
+#include "../../helper/glist.h"
+#include "../../helper/ckd_alloc.h"
 
 
 glist_t

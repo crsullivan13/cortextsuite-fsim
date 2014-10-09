@@ -40,7 +40,7 @@
  * Author: David Huggins-Daines, much code taken from sphinx3/src/libs3decoder/liblm
  */
 
-#include "../../include/config.h"
+#include "../../helper/config.h"
 
 #include <string.h>
 #include <assert.h>
@@ -49,16 +49,16 @@
 #include <iconv.h>
 #endif 
 
-#include "../../include/ngram_model.h"
-#include "../../include/ckd_alloc.h"
-#include "../../include/filename.h"
-#include "../../include/pio.h"
-#include "../../include/err.h"
-#include "../../include/logmath.h"
-#include "../../include/strfuncs.h"
-#include "../../include/case.h"
+#include "../../helper/ngram_model.h"
+#include "../../helper/ckd_alloc.h"
+#include "../../helper/filename.h"
+#include "../../helper/pio.h"
+#include "../../helper/err.h"
+#include "../../helper/logmath.h"
+#include "../../helper/strfuncs.h"
+#include "../../helper/case.h"
 
-#include "../../include/ngram_model_internal.h"
+#include "../../helper/ngram_model_internal.h"
 
 ngram_file_type_t
 ngram_file_name_to_type(const char *file_name)

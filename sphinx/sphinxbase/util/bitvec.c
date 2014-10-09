@@ -58,7 +58,7 @@
  */
 
 
-#include "../../include/bitvec.h"
+#include "../../helper/bitvec.h"
 
 bitvec_t *
 bitvec_realloc(bitvec_t *vec,

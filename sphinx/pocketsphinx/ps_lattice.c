@@ -45,17 +45,17 @@
 #include <math.h>
 
 /* SphinxBase headers. */
-#include "../include/ckd_alloc.h"
-#include "../include/listelem_alloc.h"
-#include "../include/strfuncs.h"
-#include "../include/err.h"
-#include "../include/pio.h"
+#include "../helper/ckd_alloc.h"
+#include "../helper/listelem_alloc.h"
+#include "../helper/strfuncs.h"
+#include "../helper/err.h"
+#include "../helper/pio.h"
 
 /* Local headers. */
-#include "../include/pocketsphinx_internal.h"
-#include "../include/ps_lattice_internal.h"
-#include "../include/ngram_search.h"
-#include "../include/dict.h"
+#include "../helper/pocketsphinx_internal.h"
+#include "../helper/ps_lattice_internal.h"
+#include "../helper/ngram_search.h"
+#include "../helper/dict.h"
 
 /*
  * Create a directed link between "from" and "to" nodes, but if a link already exists,

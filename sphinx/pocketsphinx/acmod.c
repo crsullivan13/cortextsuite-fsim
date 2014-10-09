@@ -46,20 +46,20 @@
 #include <string.h>
 
 /* SphinxBase headers. */
-#include "../include/prim_type.h"
-#include "../include/err.h"
-#include "../include/cmd_ln.h"
-#include "../include/strfuncs.h"
-#include "../include/byteorder.h"
-#include "../include/feat.h"
-#include "../include/bio.h"
+#include "../helper/prim_type.h"
+#include "../helper/err.h"
+#include "../helper/cmd_ln.h"
+#include "../helper/strfuncs.h"
+#include "../helper/byteorder.h"
+#include "../helper/feat.h"
+#include "../helper/bio.h"
 
 /* Local headers. */
-#include "../include/cmdln_macro.h"
-#include "../include/acmod.h"
-#include "../include/s2_semi_mgau.h"
-#include "../include/ptm_mgau.h"
-#include "../include/ms_mgau.h"
+#include "../helper/cmdln_macro.h"
+#include "../helper/acmod.h"
+#include "../helper/s2_semi_mgau.h"
+#include "../helper/ptm_mgau.h"
+#include "../helper/ms_mgau.h"
 
 /* Feature and front-end parameters that may be in feat.params */
 static const arg_t feat_defn[] = {

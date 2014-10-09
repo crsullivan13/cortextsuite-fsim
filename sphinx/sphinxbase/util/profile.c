@@ -60,7 +60,7 @@
  * 		Created.
  */
 
-#include "../../include/config.h"
+#include "../../helper/config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -81,9 +81,9 @@
 #pragma warning (disable: 4996)
 #endif
 
-#include "../../include/profile.h"
-#include "../../include/err.h"
-#include "../../include/ckd_alloc.h"
+#include "../../helper/profile.h"
+#include "../../helper/err.h"
+#include "../../helper/ckd_alloc.h"
 
 /* Silvio Moioli: updated to use Unicode */
 #ifdef _WIN32_WCE

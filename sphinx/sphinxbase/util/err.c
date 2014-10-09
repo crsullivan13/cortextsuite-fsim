@@ -39,7 +39,7 @@
  * @brief Somewhat antiquated logging and error interface.
  */
 
-#include "../../include/config.h"
+#include "../../helper/config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -47,7 +47,7 @@
 #include <string.h>
 #include <errno.h>
 
-#include "../../include/err.h"
+#include "../../helper/err.h"
 
 #ifdef SPHINX_DEBUG
 static int sphinx_debug_level;

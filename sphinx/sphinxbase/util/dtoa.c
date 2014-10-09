@@ -27,7 +27,7 @@
  *	_control87(PC_53, MCW_PC);
  * does this with many compilers.  Whether this or another call is
  * appropriate depends on the compiler; for this to work, it may be
- * necessary to #include "../../include/float.h" or another system-dependent header
+ * necessary to #include "../../helper/float.h" or another system-dependent header
  * file.
  */
 
@@ -70,7 +70,7 @@
 
 /* Added by dhuggins@cs.cmu.edu to use autoconf results. */
 /* We do not care about the VAX. */
-#include "../../include/config.h"
+#include "../../helper/config.h"
 #ifdef WORDS_BIGENDIAN
 #define IEEE_MC68k
 #else
@@ -80,11 +80,11 @@
 #define NO_LONG_LONG
 #endif
 #define Omit_Private_Memory
-#include "../../include/ckd_alloc.h"
+#include "../../helper/ckd_alloc.h"
 #undef USE_LOCALE
 
 /* Correct totally bogus typedefs in this code. */
-#include "../../include/prim_type.h"
+#include "../../helper/prim_type.h"
 #define Long int32   /* ZOMG */
 #define ULong uint32 /* WTF */
 
@@ -178,7 +178,7 @@
  *	computation should be done to set the inexact flag when the
  *	result is inexact and avoid setting inexact when the result
  *	is exact.  In this case, dtoa.c must be compiled in
- *	an environment, perhaps provided by #include "../../include/dtoa.c" in a
+ *	an environment, perhaps provided by #include "../../helper/dtoa.c" in a
  *	suitable wrapper, that defines two functions,
  *		int get_inexact(void);
  *		void clear_inexact(void);
