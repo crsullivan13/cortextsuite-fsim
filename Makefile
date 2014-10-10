@@ -4,6 +4,9 @@
 all:
 	small medium large
 
+vision:
+	make -C ${CURDIR}/vision/ c-run
+
 small:
 	make -C ${CURDIR}/cortex/* small
 
@@ -13,13 +16,5 @@ medium:
 large:
 	make -C ${CURDIR}/cortex/* large
 
-clean:
-	make -C pca/ clean
-	make -C lda/ clean
-	make -C liblinear/ clean
-	make -C motion-estimation/ clean
-	make -C rbm/ clean
-	make -C sphinx/ clean
-	make -C srr/ clean
-	make -C svd3/ clean
-	
+cleanx:
+	make -C ${CURDIR}/cortex/* clean
