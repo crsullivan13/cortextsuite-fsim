@@ -19,7 +19,6 @@ run-small:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir run-small;\
 		done
-
 run-medium:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir run-medium;\
@@ -29,6 +28,31 @@ run-large:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir run-large;\
 		done
+
+cycles:
+	@echo ---------------------
+	@echo Small Datasets Cycle
+	@echo ---------------------
+	@echo
+	-grep Cycles cortex/results/*.small
+	@echo
+	@echo
+	
+	@echo ---------------------
+	@echo Medium  Datasets Cycle
+	@echo ---------------------
+	@echo
+	-grep Cycles cortex/results/*.medium
+	@echo
+	@echo
+	
+	@echo ---------------------
+	@echo Large Datasets Cycle
+	@echo ---------------------
+	@echo
+	-grep Cycles cortex/results/*.large
+	@echo
+	@echo
 	
 clean:
 	for dir in $(subdirs); do\
