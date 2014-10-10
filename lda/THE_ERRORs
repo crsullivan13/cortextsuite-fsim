@@ -1,7 +1,0 @@
-GOOD
-gcc -O2 -lm -O2 -I/home/shelbyt/Documents/benchmarks/lda /home/shelbyt/Documents/benchmarks/lda/lda-alpha.c /home/shelbyt/Documents/benchmarks/lda/lda-data.c /home/shelbyt/Documents/benchmarks/lda/cokus.c /home/shelbyt/Documents/benchmarks/lda/lda-model.c /home/shelbyt/Documents/benchmarks/lda/lda-estimate.c /home/shelbyt/Documents/benchmarks/lda/lda-inference.c /home/shelbyt/Documents/benchmarks/lda/utils.c /home/shelbyt/Documents/benchmarks/common/photonTiming.c -O2 -o lda-small
-
-
-BAD
-gcc -O2 -lm -O2 -I/home/shelbyt/Documents/benchmarks/lda /home/shelbyt/Documents/benchmarks/lda/lda-alpha.c /home/shelbyt/Documents/benchmarks/lda/lda-data.c /home/shelbyt/Documents/benchmarks/lda/cokus.c /home/shelbyt/Documents/benchmarks/lda/lda-model.c /home/shelbyt/Documents/benchmarks/lda/lda-estimate.c /home/shelbyt/Documents/benchmarks/lda/lda-inference.c /home/shelbyt/Documents/benchmarks/lda/utils.c  -O2 -o lda-small
-
