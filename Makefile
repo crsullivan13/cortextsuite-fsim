@@ -2,16 +2,16 @@
 # UCSD
 
 all:
-	small meidum large
+	small medium large
 
 small:
-	make -C ${CURDIR}* small
+	make -C ${CURDIR}/cortex/* small
 
 medium:
-	make -C ${CURDIR}* medium
+	make -C ${CURDIR}/cortex/* medium 
 
 large:
-	make -C ${CURDIR}* large
+	make -C ${CURDIR}/cortex/* large
 
 clean:
 	make -C pca/ clean
