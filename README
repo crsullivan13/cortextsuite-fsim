@@ -15,7 +15,7 @@ _make run-small_
 _make run-medium_
 _make run-large_
 
-To gather the cycle counts for all of these algoritms run
+To gather the cycle counts for all of these algorithms run
 
 _make cycles_
 
