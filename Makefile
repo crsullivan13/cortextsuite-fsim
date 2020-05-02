@@ -63,7 +63,7 @@ cycles-cortex:
 	@echo
 	@echo
 
-clean:
+clean-cortex:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir clean;\
 		done
