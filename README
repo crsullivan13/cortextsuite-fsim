@@ -54,3 +54,5 @@ C. **As of 5/2/2020, four of the benchmarks have been fixed (kmeans clustering, 
 D. **Everything compiles on Centos 7.6. More modern versions of the compilers may require some fixes. We accept pull requests!**
 
 F. **If you have contributed to CortexSuite, please feel free to add your names to the contributors.txt file!**
+
+G. **See the cortexsuite website here: http://cseweb.ucsd.edu/groups/bsg/**
