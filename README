@@ -49,7 +49,7 @@ C. **As of 5/2/2020, four of the benchmarks have been fixed (kmeans clustering, 
       It may be worth it, since these are close to end-to-end workloads.
 
    5. If somebody would like to do a pull request to separate these into a small/medium/large input size
-      and testing versus training, we would gladly consider integrating it.
+      and training versus inference, we would gladly consider integrating it.
 
 D. **Everything compiles on Centos 7.6. More modern versions of the compilers may require some fixes. We accept pull requests!**
 
