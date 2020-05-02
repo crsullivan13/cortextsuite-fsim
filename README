@@ -1,17 +1,18 @@
-UC San Diego
 CortexSuite
+-----------
 
 CortexSuite integrates a new set of benchmarks with the vision benchmarks from SD-VBS.
 It's a little crufty, but basically you run them separately. Apologies.
 
 In most cases, you will not be using our Makefile scaffolding, since you are not running on X86.
+
 But here is a description of how it works.
 
-a. SD-VBS Computer Vision Benchmark Subset of CortexSuite ("vision"):
+A. SD-VBS Computer Vision Benchmark Subset of CortexSuite ("vision"):
 
 Enter the vision directory and follow the instructions there.
 
-b. Non-computer vision subset ("cortex"):
+B. Non-computer vision subset ("cortex"):
 
 Compile the non-computer vision benchmarks with the command:
 
@@ -33,10 +34,7 @@ _make cycles-cortex_
 This will print the cycle count for small, medium, and large datasets if applicable
 for each algorithm
 
-
-c. Note that a few of the non-vision subset are not enabled with the makefile rule.
-
-d. As of 5/2/2020, four of the benchmarks have been fixed (kmeans clustering, spectral clustering, CNN, word2vec).
+C. As of 5/2/2020, four of the benchmarks have been fixed (kmeans clustering, spectral clustering, CNN, word2vec).
 
    1. we have enabled both kmeans and spectral clustering, under the clustering
       directory; which are accessible from the top level makefile
@@ -53,5 +51,5 @@ d. As of 5/2/2020, four of the benchmarks have been fixed (kmeans clustering, sp
    5. If somebody would like to do a pull request to separate these into a small/medium/large input size
       and testing versus training, we would gladly consider integrating it.
 
-e. Everything compiles on Centos 7.6. More modern versions of the compilers may require some fixes. We accept pull requests!
-f. If you have contributed to CortexSuite, please feel free to add your names to the contributors.txt file!
+D. Everything compiles on Centos 7.6. More modern versions of the compilers may require some fixes. We accept pull requests!
+F. If you have contributed to CortexSuite, please feel free to add your names to the contributors.txt file!
