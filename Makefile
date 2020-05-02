@@ -13,6 +13,9 @@ subdirs = lda liblinear motion-estimation pca rbm sphinx srr svd3 clustering
 # this makefile only drives the other components of CortexSuite, in the cortex directory.
 #
 
+all:
+	@echo see README for instructions. Or read the Makefile. "=)"
+
 run-cortex: run-cortex-small run-cortex-medium run-cortex-large
 
 
