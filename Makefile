@@ -5,32 +5,42 @@
 
 subdirs = lda liblinear motion-estimation pca rbm sphinx srr svd3 clustering
 
+
+#
+# Note the SD-VBS subcomponent of CortexSuite is located inside
+# the vision directory and has a separate makefile infrastructure.
+#
+# this makefile only drives the other components of CortexSuite, in the cortex directory.
+#
+
+run-cortex: run-cortex-small run-cortex-medium run-cortex-large
+
+
 run-vision:
 	make -C ${CURDIR}/vision/ c-run
 
-run-cortex: run-small run-medium run-large
 
-compile:
+compile-cortex:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir compile;\
 		done
 
-run-small:
+run-cortex-small:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir run-small;\
 		done
 
-run-medium:
+run-cortex-medium:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir run-medium;\
 		done
 
-run-large:
+run-cortex-large:
 	for dir in $(subdirs); do\
 		$(MAKE) -C cortex/$$dir run-large;\
 		done
 
-cycles:
+cycles-cortex:
 	@echo ---------------------
 	@echo Small Datasets Cycle
 	@echo ---------------------
