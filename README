@@ -24,7 +24,9 @@ where applicable.
 To run a specific set of benchmarks use the commands
 
 _make run-small_
+
 _make run-medium_
+
 _make run-large_
 
 To gather the cycle counts for all of these algorithms run
