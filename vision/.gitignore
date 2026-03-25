@@ -30,3 +30,5 @@ benchmarks/localization/result/
 
 # Compiled benchmark binary (no extension, in src/)
 benchmarks/pca/src/pca
+
+cortex
