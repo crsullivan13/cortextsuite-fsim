@@ -473,6 +473,7 @@ int main(int argc, char* argv[])
     elt = photonReportTiming(start, endC);
     elapsed[0] += elt[0];
     elapsed[1] += elt[1];
+    elapsed[2] += elt[2];
 
     free(start);
     free(endC);

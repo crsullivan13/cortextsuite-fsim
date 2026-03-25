@@ -1,0 +1,32 @@
+# Image input data files
+*.bmp
+*.ppm
+*.pgm
+*.jpg
+
+# Precompiled headers
+*.gch
+
+# Compiled Matlab MEX files
+*.mexglx
+*.mexa64
+*.mexlx
+*.mexmac
+*.mexsol
+
+# Windows DLLs
+*.dll
+
+# Vim swap files
+*.swp
+
+# Benchmark data directories (images, expected outputs, sensor logs, etc.)
+# Makefiles within these directories are kept (used to download data)
+benchmarks/*/data/**
+!benchmarks/*/data/**/Makefile
+
+# Benchmark result/output directories
+benchmarks/localization/result/
+
+# Compiled benchmark binary (no extension, in src/)
+benchmarks/pca/src/pca

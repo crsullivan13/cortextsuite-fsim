@@ -16,7 +16,7 @@ $(error Please set the appropriate MATLAB path in MATLAB_PATH variable)
 endif
 endif
 
-CC=gcc
+CC=riscv64-unknown-linux-gnu-gcc
 override CFLAGS += -DGCC -DCHECK -D$(INPUT)
 
 COMMON_DIR := $(TOP_DIR)/common/c
