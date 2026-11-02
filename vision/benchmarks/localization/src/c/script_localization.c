@@ -471,9 +471,7 @@ int main(int argc, char* argv[])
     /** Timing utils **/   
     endC = photonEndTiming();
     elt = photonReportTiming(start, endC);
-    elapsed[0] += elt[0];
-    elapsed[1] += elt[1];
-    elapsed[2] += elt[2];
+    photonAccumulateTiming(elapsed, elt);
 
     free(start);
     free(endC);

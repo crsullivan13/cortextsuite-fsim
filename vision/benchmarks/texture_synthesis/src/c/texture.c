@@ -8,11 +8,11 @@ Author: Sravanthi Kota Venkata
 int vrstartx, vrfinishx, vrstarty, vrfinishy;
 extern params data;
 int* candlistx, *candlisty;
-int *atlas;
+extern int *atlas;
 int anotherpass=0,maxcand = 40;
-F2D *target, *result;
-int *xloopout, *yloopout;
-int *xloopin, *yloopin;
+extern F2D *target, *result;
+extern int *xloopout, *yloopout;
+extern int *xloopin, *yloopin;
 
 double compare_rest(F2D *image,int x, int y, F2D *tar,int x1, int y1, params* data);
 

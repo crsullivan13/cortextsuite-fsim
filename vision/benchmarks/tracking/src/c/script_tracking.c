@@ -234,9 +234,7 @@ for(count=1; count<=counter; count++)
     /* Timing utils */
     end = photonEndTiming();
     elt = photonReportTiming(start, end);
-    elapsed[0] += elt[0];
-    elapsed[1] += elt[1];
-    elapsed[2] += elt[2];
+    photonAccumulateTiming(elapsed, elt);
     
     free(start);
     free(elt);

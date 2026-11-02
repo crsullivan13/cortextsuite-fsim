@@ -11,6 +11,7 @@ int localx, localy,targetin=0;
 int *atlas;
 int *xloopin, *yloopin;
 int *xloopout, *yloopout;
+void *SIGNATURES;
 
 int  main(int argc, char **argv)
 {

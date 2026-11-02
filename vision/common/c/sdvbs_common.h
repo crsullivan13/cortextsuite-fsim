@@ -125,6 +125,7 @@ void fWriteMatrix(F2D* input, char* inpath);
 unsigned int* photonEndTiming();
 unsigned int* photonStartTiming();
 unsigned int* photonReportTiming(unsigned int* startCycles,unsigned int* endCycles);
+void photonAccumulateTiming(unsigned int* total, unsigned int* interval);
 void photonPrintTiming(unsigned int * elapsed);
 
 

@@ -29,7 +29,7 @@ typedef struct{
  int nfin, nfout;
 }params;
 
-void *SIGNATURES;
+extern void *SIGNATURES;
 
 //void create_texture(F2D *image, F2D *result, params *data);
 void create_texture(F2D *image, params *data);
